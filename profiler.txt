@@ -1,0 +1,344 @@
+Sat Mar 22 00:16:21 2025    minecraft.prof
+
+         3607731 function calls (3607686 primitive calls) in 190.253 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     8198  155.484    0.019  155.484    0.019 {built-in method pygame.display.flip}
+    24595   26.360    0.001   26.914    0.001 wrapper.py:782(wrapperCall)
+   181185    1.870    0.000    1.870    0.000 graphics.py:27(block_vertices)
+        1    0.964    0.964  190.253  190.253 renderer_test.py:12(main)
+     8197    0.661    0.000    0.661    0.000 {method 'tick' of 'pygame.time.Clock' objects}
+   187201    0.420    0.000    0.420    0.000 {built-in method numpy.array}
+     8198    0.362    0.000    0.362    0.000 {built-in method builtins.print}
+   181185    0.288    0.000    0.288    0.000 graphics.py:42(block_indices)
+     8199    0.263    0.000    0.322    0.000 opengl.py:44(view)
+        1    0.198    0.198    2.778    2.778 graphics.py:47(init_blocks)
+     8198    0.189    0.000   28.866    0.004 opengl.py:191(indexed_draw)
+        1    0.177    0.177    0.349    0.349 maps.py:69(blocks)
+    16402    0.171    0.000    0.171    0.000 numpymodule.py:40(dataPointer)
+     8198    0.159    0.000    0.159    0.000 {built-in method pygame.event.get}
+   106598    0.138    0.000    0.138    0.000 error.py:208(glCheckError)
+        1    0.132    0.132    0.133    0.133 {built-in method pygame.display.set_mode}
+     8198    0.108    0.000    0.178    0.000 wrapper.py:965(wrapperCall)
+    32793    0.106    0.000   27.666    0.001 latebind.py:61(__call__)
+     8198    0.105    0.000    0.323    0.000 GL_2_0.py:438(glVertexAttribPointer)
+     8199    0.104    0.000    0.264    0.000 GL_2_0.py:418(glGetUniformLocation)
+   131182    0.093    0.000    0.124    0.000 arraydatatype.py:36(__call__)
+    49198    0.085    0.000    0.413    0.000 arraydatatype.py:133(from_param)
+    57387    0.081    0.000    0.219    0.000 arraydatatype.py:169(asArray)
+   163989    0.081    0.000    0.190    0.000 wrapper.py:506(calculate_pyArgs)
+     8198    0.080    0.000   13.472    0.002 opengl.py:160(populate_vertex_buffer)
+        2    0.076    0.038    0.076    0.038 opengl.py:13(flatten)
+    16396    0.074    0.000   26.973    0.002 GL_1_5.py:67(glBufferData)
+     8198    0.068    0.000    0.068    0.000 {built-in method pygame.key.get_pressed}
+    32801    0.065    0.000   27.164    0.001 latebind.py:35(__call__)
+     8198    0.063    0.000    0.973    0.000 opengl.py:172(set_matrices)
+    16403    0.061    0.000    0.061    0.000 __init__.py:517(cast)
+   123005    0.056    0.000    0.074    0.000 wrapper.py:542(calculate_cArgs)
+   181185    0.055    0.000    0.146    0.000 types_.py:7(__init__)
+    32793    0.050    0.000    0.050    0.000 numpymodule.py:153(contiguous)
+     8198    0.048    0.000    0.048    0.000 contextdata.py:31(getContext)
+     8198    0.044    0.000    0.109    0.000 contextdata.py:44(setValue)
+     8198    0.041    0.000   13.677    0.002 opengl.py:164(populate_index_buffer)
+   147601    0.040    0.000    0.040    0.000 {method 'get' of 'dict' objects}
+    16396    0.039    0.000    0.076    0.000 opengl.py:34(rotate)
+    65584    0.038    0.000    0.038    0.000 {built-in method pyglm.glm.rotate}
+     1118    0.034    0.000    0.038    0.000 types_.py:48(displace)
+       24    0.033    0.001    0.034    0.001 baseplatform.py:485(__call__)
+    24597    0.032    0.000    0.032    0.000 {method 'tolist' of 'numpy.ndarray' objects}
+    48000    0.030    0.000    0.042    0.000 rand_vec.py:23(dists_to)
+     8199    0.027    0.000    0.027    0.000 {built-in method pyglm.glm.lookAt}
+     8202    0.027    0.000    0.073    0.000 strings.py:12(dataPointer)
+     8198    0.026    0.000    0.039    0.000 arraydatatype.py:153(voidDataPointer)
+    16402    0.023    0.000    0.194    0.000 numpymodule.py:209(from_param)
+     8198    0.021    0.000   28.887    0.004 graphics.py:55(render_blocks)
+    24000    0.021    0.000    0.079    0.000 rand_vec.py:37(weight_to)
+     8198    0.021    0.000    0.021    0.000 {built-in method pygame.mouse.get_rel}
+    89169    0.020    0.000    0.020    0.000 {built-in method builtins.len}
+   181185    0.020    0.000    0.020    0.000 types_.py:15(__setattr__)
+     8198    0.020    0.000    0.034    0.000 {built-in method pyglm.glm.value_ptr}
+    16396    0.019    0.000    0.038    0.000 arraydatatype.py:212(arrayByteCount)
+     8199    0.019    0.000    0.087    0.000 strings.py:21(from_param)
+    32793    0.018    0.000    0.068    0.000 numpymodule.py:145(asArray)
+     8198    0.018    0.000    0.113    0.000 types_.py:70(look)
+   181250    0.017    0.000    0.017    0.000 {method 'append' of 'list' objects}
+    48000    0.017    0.000    0.029    0.000 tools.py:50(fade)
+     6000    0.017    0.000    0.155    0.000 perlin_noise.py:59(noise)
+     8199    0.016    0.000    0.357    0.000 opengl.py:138(get_matrices)
+     8198    0.016    0.000    0.082    0.000 opengl.py:38(yaw)
+    24595    0.016    0.000    0.072    0.000 converters.py:156(__call__)
+     8198    0.015    0.000    0.030    0.000 arrayhelpers.py:62(__call__)
+    73796    0.015    0.000    0.015    0.000 converters.py:175(__call__)
+    24025    0.014    0.000    0.021    0.000 tools.py:8(dot)
+     8202    0.013    0.000    0.023    0.000 _bytes.py:55(as_8_bit)
+   144000    0.013    0.000    0.013    0.000 rand_vec.py:33(<genexpr>)
+     8199    0.013    0.000    0.013    0.000 {built-in method pyglm.glm.perspective}
+    24000    0.012    0.000    0.133    0.000 rand_vec.py:51(get_weighted_val)
+   144000    0.012    0.000    0.012    0.000 {built-in method math.pow}
+      525    0.012    0.000    0.031    0.000 types_.py:58(move_forward)
+    16396    0.011    0.000    0.011    0.000 numpymodule.py:132(arrayByteCount)
+   181185    0.010    0.000    0.010    0.000 maps.py:66(choose_terrain)
+    16397    0.008    0.000    0.008    0.000 {built-in method math.radians}
+     8201    0.008    0.000    0.018    0.000 arraydatatype.py:139(dataPointer)
+     8198    0.006    0.000    0.006    0.000 {built-in method pyglm.glm.identity}
+8513/8473    0.006    0.000    0.006    0.000 {built-in method builtins.getattr}
+     8202    0.006    0.000    0.006    0.000 {method 'encode' of 'str' objects}
+     8199    0.005    0.000    0.018    0.000 opengl.py:51(perspective)
+    20505    0.005    0.000    0.005    0.000 {built-in method builtins.isinstance}
+    30025    0.005    0.000    0.005    0.000 {built-in method builtins.sum}
+     1118    0.004    0.000    0.004    0.000 opengl.py:28(translate)
+    24000    0.004    0.000    0.004    0.000 {built-in method _functools.reduce}
+        1    0.004    0.004    0.164    0.164 maps.py:59(init_height_map)
+    48025    0.003    0.000    0.003    0.000 {built-in method builtins.abs}
+    24595    0.003    0.000    0.003    0.000 converters.py:198(__call__)
+     8198    0.003    0.000    0.013    0.000 opengl.py:41(pitch)
+    24000    0.002    0.000    0.002    0.000 {built-in method math.floor}
+     6000    0.002    0.000    0.157    0.000 perlin_noise.py:43(__call__)
+    16396    0.002    0.000    0.002    0.000 nones.py:30(asArray)
+    16396    0.001    0.000    0.001    0.000 ctypespointers.py:18(from_param)
+     8198    0.001    0.000    0.001    0.000 converters.py:324(__call__)
+      187    0.001    0.000    0.009    0.000 types_.py:64(move_backwards)
+     8198    0.001    0.000    0.001    0.000 nones.py:21(from_param)
+     8198    0.001    0.000    0.001    0.000 ctypespointers.py:48(asArray)
+     8198    0.001    0.000    0.001    0.000 nones.py:24(dataPointer)
+        1    0.001    0.001    0.010    0.010 opengl.py:127(init_shaders)
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        5    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       24    0.000    0.000    0.001    0.000 baseplatform.py:456(load)
+       24    0.000    0.000    0.001    0.000 baseplatform.py:159(constructFunction)
+        3    0.000    0.000    0.006    0.002 wrapper.py:678(wrapperCall)
+       25    0.000    0.000    0.000    0.000 {function Random.getstate at 0x7ff04b632ac0}
+       25    0.000    0.000    0.001    0.000 rand_vec.py:13(__init__)
+       25    0.000    0.000    0.000    0.000 {function Random.seed at 0x7ff04b632a20}
+      223    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       24    0.000    0.000    0.000    0.000 __init__.py:396(__getitem__)
+        8    0.000    0.000    0.000    0.000 wrapper.py:429(finalise)
+        1    0.000    0.000    0.000    0.000 numpymodule.py:68(NumpyHandler)
+        3    0.000    0.000    0.000    0.000 converters.py:354(__call__)
+       16    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        5    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
+       25    0.000    0.000    0.000    0.000 {function Random.setstate at 0x7ff04b6328e0}
+       25    0.000    0.000    0.001    0.000 tools.py:29(sample_vector)
+       24    0.000    0.000    0.000    0.000 __init__.py:73(CFUNCTYPE)
+       24    0.000    0.000    0.000    0.000 ctypesloader.py:94(buildFunction)
+       77    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1593(find_spec)
+        5    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1062(get_code)
+        8    0.000    0.000    0.000    0.000 wrapper.py:476(finaliseCall)
+      6/1    0.000    0.000  190.253  190.253 {built-in method builtins.exec}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+       24    0.000    0.000    0.000    0.000 baseplatform.py:119(errorChecking)
+       25    0.000    0.000    0.000    0.000 random.py:135(seed)
+       26    0.000    0.000    0.000    0.000 __init__.py:1377(getLogger)
+        3    0.000    0.000    0.005    0.002 converters.py:373(stringArrayForC)
+       25    0.000    0.000    0.000    0.000 tools.py:71(hasher)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+        1    0.000    0.000    0.000    0.000 numpymodule.py:1(<module>)
+       26    0.000    0.000    0.000    0.000 __init__.py:2149(getLogger)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:482(cache_from_source)
+       24    0.000    0.000    0.000    0.000 __init__.py:389(__getattr__)
+        5    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:1349(_find_and_load)
+        8    0.000    0.000    0.000    0.000 plugins.py:68(match)
+        5    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       25    0.000    0.000    0.000    0.000 random.py:173(getstate)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+        5    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+       25    0.000    0.000    0.001    0.000 perlin_noise.py:113(get_from_cache_of_create_new)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1183(get_data)
+        5    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:911(_load_unlocked)
+       35    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+       50    0.000    0.000    0.000    0.000 baseplatform.py:150(finalArgType)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+       50    0.000    0.000    0.000    0.000 random.py:494(uniform)
+       12    0.000    0.000    0.000    0.000 converters.py:48(finalise)
+        5    0.000    0.000    0.001    0.000 wrapper.py:758(wrapperCall)
+        5    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 strings.py:1(<module>)
+       24    0.000    0.000    0.000    0.000 baseplatform.py:146(wrapLogging)
+       35    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       24    0.000    0.000    0.000    0.000 wrapper.py:123(pyArgIndex)
+       26    0.000    0.000    0.000    0.000 __init__.py:234(_acquireLock)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+       25    0.000    0.000    0.000    0.000 random.py:177(setstate)
+       55    0.000    0.000    0.000    0.000 wrapper.py:104(__getattr__)
+       35    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 types_.py:41(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'astype' of 'numpy.ndarray' objects}
+       50    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+        7    0.000    0.000    0.002    0.000 {built-in method builtins.__import__}
+       16    0.000    0.000    0.000    0.000 wrapper.py:116(__setattr__)
+       24    0.000    0.000    0.000    0.000 baseplatform.py:112(functionTypeFor)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:802(spec_from_file_location)
+        1    0.000    0.000    0.000    0.000 {built-in method _io.open}
+        1    0.000    0.000    0.002    0.002 opengl.py:145(init_program)
+        7    0.000    0.000    0.002    0.000 plugins.py:40(importByName)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+       47    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 <frozen posixpath>:100(split)
+        1    0.000    0.000    0.000    0.000 ctypespointers.py:1(<module>)
+       42    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:397(get_provider)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1588(_get_spec)
+        1    0.000    0.000    0.000    0.000 opengl.py:18(__init__)
+       26    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        5    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:989(exec_module)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1491(_get_spec)
+        1    0.000    0.000    0.012    0.012 opengl.py:112(__init__)
+       50    0.000    0.000    0.000    0.000 {built-in method _ctypes.POINTER}
+        1    0.000    0.000    0.000    0.000 ctypesarrays.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 ctypesarrays.py:16(CtypesArrayHandler)
+       26    0.000    0.000    0.000    0.000 __init__.py:243(_releaseLock)
+       80    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 <frozen posixpath>:179(dirname)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:751(_compile_bytecode)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+       12    0.000    0.000    0.000    0.000 __init__.py:2442(_is_zip_egg)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:611(_get_cached)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+       30    0.000    0.000    0.000    0.000 numpymodule.py:233(lookupDtype)
+       53    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       15    0.000    0.000    0.005    0.000 wrapper.py:567(calculate_cArguments)
+       30    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:1428(_fixupParents)
+       35    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+       12    0.000    0.000    0.000    0.000 __init__.py:102(CFunctionType)
+       24    0.000    0.000    0.000    0.000 error.py:195(__bool__)
+        3    0.000    0.000    0.000    0.000 converters.py:366(stringArray)
+       14    0.000    0.000    0.000    0.000 __init__.py:1680(_parents)
+        7    0.000    0.000    0.002    0.000 plugins.py:15(load)
+        2    0.000    0.000    0.000    0.000 __init__.py:1497(__init__)
+        1    0.000    0.000    0.000    0.000 opengl.py:183(settings)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:666(_classify_pyc)
+        5    0.000    0.000    0.001    0.000 arraydatatype.py:200(zeros)
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       10    0.000    0.000    0.000    0.000 converters.py:277(getSize)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+        1    0.000    0.000    0.012    0.012 graphics.py:22(__init__)
+        5    0.000    0.000    0.001    0.000 converters.py:228(__call__)
+        2    0.000    0.000    0.000    0.000 __init__.py:1595(_validate_resource_path)
+        8    0.000    0.000    0.000    0.000 latebind.py:17(setFinalCall)
+       30    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 wrapper.py:135(cArgIndex)
+        1    0.000    0.000    0.000    0.000 opengl.py:121(init_buffers)
+        5    0.000    0.000    0.001    0.000 converters.py:294(__call__)
+        5    0.000    0.000    0.000    0.000 converters.py:236(oldStyleReturn)
+       12    0.000    0.000    0.000    0.000 __init__.py:2435(_is_egg_path)
+        2    0.000    0.000    0.000    0.000 __init__.py:3229(_find_adapter)
+        5    0.000    0.000    0.001    0.000 arraydatatype.py:75(get_output_handler)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.ascontiguousarray}
+        2    0.000    0.000    0.000    0.000 __init__.py:1489(__init__)
+        2    0.000    0.000    0.000    0.000 __init__.py:1589(_fn)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:699(_validate_timestamp_pyc)
+       27    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:643(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 strings.py:16(StringHandler)
+       30    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 __init__.py:1694(__init__)
+        1    0.000    0.000    0.000    0.000 ctypespointers.py:11(CtypesPointerHandler)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       27    0.000    0.000    0.000    0.000 wrapper.py:41(asList)
+       26    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        1    0.000    0.000    0.000    0.000 nones.py:1(<module>)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+       31    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 plugins.py:33(by_name)
+        1    0.000    0.000    0.001    0.001 arraydatatype.py:65(handler_by_plugin_name)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 pkgdata.py:45(getResource)
+       35    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1520(find_spec)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000  190.253  190.253 <string>:1(<module>)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+        2    0.000    0.000    0.000    0.000 __init__.py:1698(_setup_prefix)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+        3    0.000    0.000    0.000    0.000 ctypesarrays.py:18(from_param)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+        1    0.000    0.000    0.000    0.000 random.py:242(_randbelow_with_getrandbits)
+       24    0.000    0.000    0.000    0.000 logs.py:75(logOnFail)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1202(path_stats)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+       30    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        5    0.000    0.000    0.000    0.000 numpymodule.py:110(zeros)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1203(resource_exists)
+       18    0.000    0.000    0.000    0.000 <frozen posixpath>:41(_get_sep)
+       15    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+       12    0.000    0.000    0.000    0.000 __init__.py:2450(_is_unpacked_egg)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        1    0.000    0.000    0.000    0.000 random.py:291(randrange)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        2    0.000    0.000    0.000    0.000 <frozen posixpath>:71(join)
+        1    0.000    0.000    0.000    0.000 opengl.py:142(set_directional_light)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1469(_path_importer_cache)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+       24    0.000    0.000    0.000    0.000 baseplatform.py:130(wrapContextCheck)
+        1    0.000    0.000    0.164    0.164 maps.py:40(__init__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+        3    0.000    0.000    0.000    0.000 {built-in method _ctypes.byref}
+       24    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 random.py:332(randint)
+        5    0.000    0.000    0.000    0.000 __init__.py:89(find_spec)
+        5    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:87(isabs)
+        5    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        4    0.000    0.000    0.000    0.000 __init__.py:1323(append)
+        8    0.000    0.000    0.000    0.000 {built-in method _ctypes.sizeof}
+       10    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       14    0.000    0.000    0.000    0.000 converters.py:171(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1502(has_resource)
+        2    0.000    0.000    0.000    0.000 {method '__getitem__' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 strings.py:72(UnicodeHandler)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_abspath)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+        5    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0xa43b40}
+        1    0.000    0.000    0.000    0.000 <frozen genericpath>:16(exists)
+        1    0.000    0.000    0.000    0.000 __init__.py:1723(get_resource_stream)
+        1    0.000    0.000    0.000    0.000 nones.py:18(NoneHandler)
+        1    0.000    0.000    0.000    0.000 perlin_noise.py:19(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1217(resource_stream)
+        3    0.000    0.000    0.000    0.000 converters.py:362(totalCount)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        2    0.000    0.000    0.000    0.000 <frozen posixpath>:60(isabs)
+        1    0.000    0.000    0.000    0.000 plugins.py:29(all)
+        2    0.000    0.000    0.000    0.000 __init__.py:3219(_always_object)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 __init__.py:811(__init__)
+        2    0.000    0.000    0.000    0.000 inspect.py:741(getmro)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        5    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:208(_checkLevel)
+        1    0.000    0.000    0.000    0.000 __init__.py:1714(_has)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        1    0.000    0.000    0.000    0.000 types_.py:32(__init__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1153(__init__)
+        6    0.000    0.000    0.000    0.000 GL_1_5.py:43(<lambda>)
+        3    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        2    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:71(_relax_case)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1178(get_filename)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:986(create_module)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        1    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 GL_3_0.py:159(<lambda>)
+
+
